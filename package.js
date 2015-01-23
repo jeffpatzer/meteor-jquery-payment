@@ -2,7 +2,7 @@ Package.describe({
   name: 'jeffpatzer:jquery-payment',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: 'Payment library by Stripe. A general purpose library for building credit card forms, validating inputs and formatting numbers.',
+  summary: 'Payment library by Stripe. Build credit card forms, validate inputs and format numbers.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/jpatzer/meteor-jquery-payment',
   // By default, Meteor will default to using README.md for documentation.
@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
-  api.addFiles('jeffpatzer:jquery-payment.js');
+  api.addFiles(['jeffpatzer:jquery-payment.js'], 'client');
 });
 
 // Package.onTest(function(api) {
