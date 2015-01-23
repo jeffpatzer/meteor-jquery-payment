@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jeffpatzer:jquery-payment',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'Payment library by Stripe. Build credit card forms, validate inputs and format numbers.',
   // URL to the Git repository containing the source code for this package.
