@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
   api.use('jquery', 'client');
-  api.addFiles(['jeffpatzer:jquery-payment.js'], 'client');
+  api.addFiles(['lib/jquery-payment.js'], 'client');
 });
 
 // Package.onTest(function(api) {
